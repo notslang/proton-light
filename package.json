@@ -3,7 +3,7 @@
   "theme": "ui",
   "version": "0.1.0",
   "private": false,
-  "description": "A light version of Proton UI.",
+  "description": "A light, airy version of Proton UI.",
   "repository": {
     "type": "git",
     "url": "https://github.com/jdsimcoe/proton-light"
