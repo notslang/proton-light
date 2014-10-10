@@ -1,0 +1,100 @@
+// Colors
+
+// Custom colors
+@syntax-color-slate: #788D9E;
+@syntax-color-slate-light: #A4BDD1;
+@syntax-color-green: #6ED300;
+@syntax-color-orange: #FF9740;
+@syntax-color-blue: #5bc1f0;
+
+@text-color: @syntax-color-slate;
+@text-color-subtle: @syntax-color-slate-light;
+@text-color-highlight: darken(@syntax-color-slate-light, 15%);
+@text-color-selected: lighten(@text-color, 60%);
+
+@text-color-info: @syntax-color-blue;
+@text-color-success: @syntax-color-green;
+@text-color-warning: @syntax-color-orange;
+@text-color-error: @syntax-color-orange;
+
+@text-color-ignored: @text-color-subtle;
+@text-color-added: @text-color-success;
+@text-color-renamed: @text-color-info;
+@text-color-modified: @text-color-warning;
+@text-color-removed: @text-color-error;
+
+@background-color-info: #5bc1f0;
+@background-color-success: #6ED300;
+@background-color-warning: #FF9740;
+@background-color-error: @syntax-color-orange;
+@background-color-highlight: rgba(255, 255, 255, 0.07);
+@background-color-selected: darken(@app-background-color, 5%);
+
+@scrollbar-background-color: rgba(42, 42, 42, 0.5);
+@scrollbar-color: rgba(92, 92, 92, 0.5);
+
+// The one true bg color
+@app-background-color: #EFF1F5;
+
+@tree-background-color: @app-background-color;
+
+@base-background-color: lighten(@app-background-color, 4%);
+@base-border-color: rgba(0, 0, 0, 0.5);
+
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color: @tab-bar-background-color;
+
+@input-background-color: @app-background-color;
+@input-border-color: @base-border-color;
+
+@tool-panel-background-color: @app-background-color;
+@tool-panel-border-color: transparent;
+
+@inset-panel-background-color: darken(@app-background-color, 15%);
+@inset-panel-border-color: @base-border-color;
+
+@panel-heading-background-color: #43484d;
+@panel-heading-border-color: fadein(@base-border-color, 10%);
+
+@overlay-background-color: @tool-panel-background-color;
+@overlay-border-color: @background-color-highlight;
+
+@button-background-color: @app-background-color;
+@button-background-color-hover: @app-background-color;
+@button-background-color-selected: @app-background-color;
+@button-border-color: transparent;
+
+@tab-bar-background-color: darken(@app-background-color, 3%);
+@tab-bar-border-color: transparent;
+// @tab-background-color: lighten(@app-background-color, 4%);
+@tab-background-color-active: @base-background-color;
+@tab-border-color: transparent;
+
+@tree-view-background-color: @tool-panel-background-color;
+@tree-view-border-color: @tool-panel-border-color;
+
+@ui-site-color-1: @background-color-success; // green
+@ui-site-color-2: @background-color-info; // blue
+@ui-site-color-3: @background-color-warning; // orange
+@ui-site-color-4: #db2ff4; // purple
+@ui-site-color-5: #f5e11d; // yellow
+
+
+// Sizes
+
+@font-size: 13px;
+
+@disclosure-arrow-size: 12px;
+
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+@component-border-radius: 2px;
+
+@tab-height: 35px;
+
+
+// Other
+
+@font-family: 'Lucida Grande', 'Segoe UI', sans-serif;
